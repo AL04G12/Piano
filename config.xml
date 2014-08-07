@@ -10,7 +10,7 @@
     <name>Ejemplo Plug In</name>
 
     <description>
-        Ejemplo para utilizar Plugins
+        Piano
     </description>
 
     <preference name="phonegap-version" value="3.1.0" />
