@@ -24,5 +24,12 @@ $(document).ready(function(e){
 	 
 	 audio.preloadFX('si','audio/B.mp3',function(msg){},
 	 function(msg){alert('error: '+msg);});
+	 
+	 $('.nota').bind('touchstart',function(e){
+		 $(this).addClass('tocada');
+		 audio.play($(this).attr ('id'));
+	 }).bind('touchend', function(e){
+		 $(this).removeClass('tocada');
+	 });
  },false); //deviceready
 });//ready
