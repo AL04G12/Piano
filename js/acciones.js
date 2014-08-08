@@ -2,6 +2,7 @@
 	var audio;
 $(document).ready(function(e){
 	$("#Principal").height($("#page").height());
+	
 	document.addEventListener("deviceready",function(){
      audio=window.plugins.LowLatencyAudio;
 	 audio.preloadFX('do','audio/C.mp3',function(msg){},
